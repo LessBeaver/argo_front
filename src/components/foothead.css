@@ -1,0 +1,34 @@
+.Header {
+    width: 100%;
+    height: 350px;
+    position: relative;
+}
+
+.Header-bg-title {
+    position: absolute;
+    z-index: 4;
+    height: 125px;
+    width: 100%;
+    top: 150px;
+}
+
+.Header-bg-title-container {
+    height: 125px;
+    width: 30%;
+    background-color: lightcoral;
+    margin: 0 auto;
+}
+
+.Header-title {
+    position: absolute;
+    height: 125px;
+    width: inherit;
+    margin: auto auto;
+}
+
+.Header-bg {
+    width: 100%;
+    height: 100%;
+    position: inherit;
+    z-index: 1;
+}

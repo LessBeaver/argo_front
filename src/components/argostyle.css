@@ -1,0 +1,9 @@
+.ArgoContainer {
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    width: 60%;
+    margin: 30px auto;
+    justify-content: center;
+    background-color: lemonchiffon;
+}
