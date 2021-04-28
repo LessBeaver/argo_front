@@ -1,5 +1,6 @@
 .App {
   text-align: center;
+  font-family: 'Varela Round';
 }
 
 .App-body {
@@ -9,5 +10,10 @@
   width: 60%;
   margin: auto;
   justify-content: center;
-  background-color: lemonchiffon;
+}
+
+h3 {
+  display: flex;
+  margin: 15px;
+  color: rgb(247, 108, 108);
 }

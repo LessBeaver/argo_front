@@ -7,23 +7,24 @@
 .Header-bg-title {
     position: absolute;
     z-index: 4;
-    height: 125px;
+    height: auto;
     width: 100%;
-    top: 150px;
+    top: 125px;
 }
 
 .Header-bg-title-container {
-    height: 125px;
+    height: 100px;
     width: 30%;
-    background-color: lightcoral;
-    margin: 0 auto;
+    border-radius: 15px;
+    background-color: rgba(247, 108, 108, 0.7);
+    margin: auto;
 }
 
 .Header-title {
     position: absolute;
-    height: 125px;
     width: inherit;
-    margin: auto auto;
+    padding: 10px;
+    color: whitesmoke;
 }
 
 .Header-bg {

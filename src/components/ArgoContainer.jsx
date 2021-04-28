@@ -1,4 +1,4 @@
-import React, { useState, useEffect } from 'react';
+import React from 'react';
 import axios from 'axios';
 import './argostyle.css';
 import ArgoList from './ArgoList';
@@ -41,7 +41,7 @@ export default class ArgoContainer extends React.Component {
                     </h3>
                     <div className="ArgoContainer-addArgo">
                         <label>
-                            Veuillez saisir un nom
+                            Veuillez saisir un nom :
                         </label>
                         <input
                         placeholder="Charalampos"
