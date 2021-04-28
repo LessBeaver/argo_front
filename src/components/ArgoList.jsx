@@ -5,7 +5,7 @@ import ArgoMembers from './ArgoMembers'
 
 function ArgoList() {
   const [argo, setArgo] = useState([]);
-
+  
   useEffect(() => {
     axios
       .get('http://localhost:3001/argo/membre')
@@ -19,10 +19,8 @@ function ArgoList() {
 
   return (
     <div className="ArgoList">
-        <h3>Membres de l'équipage</h3>
-      {argo.map(member => {
-        return <ArgoMembers member={member} key={member.id} />;
-      })}
+      <h3>Membres de l'équipage</h3>
+      <ArgoMembers className="ArgoMembers" argo={argo} />
     </div>
   );
 }

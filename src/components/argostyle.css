@@ -1,9 +1,77 @@
+/* ArgoContainer */
+
 .ArgoContainer {
     display: flex;
     flex-direction: column;
     flex-wrap: wrap;
-    width: 60%;
-    margin: 30px auto;
-    justify-content: center;
-    background-color: lemonchiffon;
+}
+
+.ArgoContainer-form {
+    margin: 15px;
+    height: auto;
+    padding: 15px;
+    background-color: lightpink;
+}
+
+.ArgoContainer-form h3 {
+    display: flex;
+    margin: 15px;
+}
+
+.ArgoContainer-form button {
+    margin: 15px;
+    padding: 5px 15px;
+}
+
+.ArgoContainer-addArgo {
+    margin: 15px;
+}
+
+.ArgoContainer-addArgo label {
+    margin: auto 15px;
+}
+
+.ArgoContainer-addArgo input {
+    margin: auto 15px;
+}
+/* ArgoList */
+
+.ArgoList-container {
+    margin: 15px;
+    height: auto;
+    padding: 15px;
+    background-color: lightpink;
+}
+
+.ArgoList {
+    display: flex;
+    flex-direction: column;
+}
+
+.ArgoList h3 {
+    display: flex;
+    margin: 15px;
+}
+
+/* ArgoMembers */
+
+.ArgoMembers {
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+}
+
+.ArgoMembers div {
+    margin: 15px;
+    width: 50%;
+    padding: 30px;
+    background-color:lawngreen;
+}
+
+.ArgoMembers p {
+    margin: 0;
+}
+
+.ArgoMembers-container {
+    display: flex;
 }

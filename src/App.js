@@ -7,7 +7,9 @@ export default function App() {
   return (
     <div className="App">
       <Header />
-      <ArgoContainer />
+      <section className="App-body">
+        <ArgoContainer />
+      </section>
     </div>
   )
 }

@@ -35,13 +35,16 @@ export default class ArgoContainer extends React.Component {
     render() {
         return (
             <div className="ArgoContainer">
-                <form onSubmit={this.onSubmit}>
-                    <div>
+                <form onSubmit={this.onSubmit} className="ArgoContainer-form">
+                    <h3>
+                        Ajouter un(e) argonaute
+                    </h3>
+                    <div className="ArgoContainer-addArgo">
                         <label>
-                            Ajouter un(e) argonaute
+                            Veuillez saisir un nom
                         </label>
                         <input
-                        placeholder="Nom de l'argonaute"
+                        placeholder="Charalampos"
                         name="name"
                         id="name"
                         type="text"
@@ -49,11 +52,13 @@ export default class ArgoContainer extends React.Component {
                         onChange={this.onChange}
                         />
                     </div>
-                    <button>
-                        Ajouter
-                    </button>
+                    <div className="ArgoContainer-addArgo-button">
+                        <button>
+                            Ajouter
+                        </button>
+                    </div>
                 </form>
-                <div>
+                <div className="ArgoList-container">
                     <ArgoList />
                 </div>
             </div>
